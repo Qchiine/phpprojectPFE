@@ -5,21 +5,8 @@ const Navdata = () => {
 
     const history = useNavigate();
     const [isApps, setIsApps] = useState(false);
-    const [isPages, setIsPages] = useState(false);
     const [isForms, setIsForms] = useState(false);
     const [isTables, setIsTables] = useState(false);
-    
-
-
-
-    // Apps
-    const [isEcommerce, setIsEcommerce] = useState(false);
-    const [isSupportTickets, setIsSupportTickets] = useState(false);
-    const [isLanding, setIsLanding] = useState(false);
-    const [isJobs, setIsJobs] = useState(false);
-    const [isJobList, setIsJobList] = useState(false);
-    const [isCandidateList, setIsCandidateList] = useState(false);
-
     const [iscurrentState, setIscurrentState] = useState('Dashboard');
 
     function updateIconSidebar(e) {
@@ -44,9 +31,6 @@ const Navdata = () => {
             setIsApps(false);
         }
         
-        if (iscurrentState !== 'Landing') {
-            setIsLanding(false);
-        }
         if (iscurrentState !== 'Forms') {
             setIsForms(false);
         }
@@ -57,7 +41,6 @@ const Navdata = () => {
         history,
         iscurrentState,
         isApps,
-        
         isForms,
         isTables,
     ]);
@@ -105,10 +88,10 @@ const Navdata = () => {
                 },
             
                 {
-                    id: "supportTickets",
+                    id: "tasks",
                     icon: "ri-pages-line",
                     label: "List View",
-                    link: "/apps-tickets-list",
+                    link: "/apps-tasks-list-view",
                     parentId: "apps",
                 },
                 {
@@ -118,6 +101,13 @@ const Navdata = () => {
                     link: "/apps-job-candidate-lists",
                     parentId: "apps",
                 },
+                {
+                id: "filemanager",
+                icon: "ri-pages-line",
+                label: "File Manager",
+                link: "/apps-file-manager",
+                parentId: "apps",
+            },
             
         {
             label: "Pages",
