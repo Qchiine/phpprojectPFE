@@ -87,13 +87,13 @@ const Navdata = () => {
                     parentId: "apps",
                 },
             
-                {
-                    id: "tasks",
-                    icon: "ri-pages-line",
-                    label: "List View",
-                    link: "/apps-tasks-list-view",
-                    parentId: "apps",
-                },
+                // {
+                //     id: "tasks",
+                //     icon: "ri-pages-line",
+                //     label: "List View",
+                //     link: "/apps-tasks-list-view",
+                //     parentId: "apps",
+                // },
                 {
                     id: "job",
                     icon: "ri-layout-grid-line",
