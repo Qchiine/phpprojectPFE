@@ -40,7 +40,7 @@ import {
     sidebarVisibilitytypes
 } from "../constants/layout";
 
-//SimpleBar
+//SimpleBar:
 import SimpleBar from "simplebar-react";
 import classnames from "classnames";
 

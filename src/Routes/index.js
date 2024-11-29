@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 //Layouts
 import NonAuthLayout from "../Layouts/NonAuthLayout";
-import VerticalLayout from "../Layouts/index";
+import HorizontalLayout from "../Layouts/index";
 
 //routes
 import { authProtectedRoutes, publicRoutes } from "./allRoutes";
@@ -34,7 +34,7 @@ const Index = () => {
                             path={route.path}
                             element={
                                 <AuthProtected>
-                                    <VerticalLayout>{route.component}</VerticalLayout>
+                                    <HorizontalLayout>{route.component}</HorizontalLayout>
                                 </AuthProtected>}
                             key={idx}
                             exact={true}

@@ -10,12 +10,11 @@ import {
   leftsidbarSizeTypes,
   leftSidebarViewTypes,
   leftSidebarImageTypes,
-  preloaderTypes,
-  sidebarVisibilitytypes
+
 } from "../../Components/constants/layout";
 
 export const initialState = {
-  layoutType: layoutTypes.VERTICAL,
+  layoutType: layoutTypes.HORIZONTAL,
   leftSidebarType: leftSidebarTypes.DARK,
   layoutModeType: layoutModeTypes.LIGHTMODE,
   layoutWidthType: layoutWidthTypes.FLUID,
@@ -23,9 +22,7 @@ export const initialState = {
   topbarThemeType: topbarThemeTypes.LIGHT,
   leftsidbarSizeType: leftsidbarSizeTypes.DEFAULT,
   leftSidebarViewType: leftSidebarViewTypes.DEFAULT,
-  leftSidebarImageType: leftSidebarImageTypes.NONE,
-  preloader: preloaderTypes.DISABLE,
-  sidebarVisibilitytype: sidebarVisibilitytypes.SHOW
+  leftSidebarImageType : leftSidebarImageTypes.NONE
 };
 
 const LayoutSlice = createSlice({
