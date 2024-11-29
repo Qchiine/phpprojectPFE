@@ -8,7 +8,6 @@ import logoDark from "../assets/images/logo-dark.png";
 import logoLight from "../assets/images/logo-light.png";
 
 //import Components
-import LanguageDropdown from '../Components/Common/LanguageDropdown';
 import FullScreenDropdown from '../Components/Common/FullScreenDropdown';
 import NotificationDropdown from '../Components/Common/NotificationDropdown';
 import ProfileDropdown from '../Components/Common/ProfileDropdown';
@@ -113,7 +112,7 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass }) => {
 
                         <div className="d-flex align-items-center">
 
-                            <Dropdown isOpen={search} toggle={toogleSearch} className="d-md-none topbar-head-dropdown header-item">
+                            {/* <Dropdown isOpen={search} toggle={toogleSearch} className="d-md-none topbar-head-dropdown header-item">
                                 <DropdownToggle type="button" tag="button" className="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle">
                                     <i className="bx bx-search fs-22"></i>
                                 </DropdownToggle>
@@ -129,10 +128,10 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass }) => {
                                         </div>
                                     </Form>
                                 </DropdownMenu>
-                            </Dropdown>
+                            </Dropdown> */}
 
                             {/* LanguageDropdown */}
-                            <LanguageDropdown />
+                            {/* <LanguageDropdown /> */}
 
                             {/* WebAppsDropdown */}
                             {/* <WebAppsDropdown /> */}

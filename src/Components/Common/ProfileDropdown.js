@@ -63,39 +63,40 @@ const ProfileDropdown = () => {
                         </Link>
                     </DropdownItem>
                     <DropdownItem className='p-0'>
-                        <Link to="#" className="dropdown-item">
+                        {/* <Link to="#" className="dropdown-item">
                             <i className="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i> <span
                                 className="align-middle">Taskboard</span>
-                        </Link>
+                        </Link> */}
                     </DropdownItem>
                     <DropdownItem className='p-0'>
-                        <Link to= "/pages-faqs" className="dropdown-item">
+                        {/* <Link to= "/pages-faqs" className="dropdown-item">
                             <i
-                                className="mdi mdi-lifebuoy text-muted fs-16 align-middle me-1"></i> <span
+                                className="
+                                mdi mdi-lifebuoy text-muted fs-16 align-middle me-1"></i> <span
                                     className="align-middle">Help</span>
-                        </Link>
+                        </Link> */}
                     </DropdownItem>
                     <div className="dropdown-divider"></div>
                     <DropdownItem className='p-0'>
-                        <Link to= "/pages-profile" className="dropdown-item">
+                        {/* <Link to= "/pages-profile" className="dropdown-item">
                             <i
                                 className="mdi mdi-wallet text-muted fs-16 align-middle me-1"></i> <span
                                     className="align-middle">Balance : <b>$5971.67</b></span>
-                        </Link>
+                        </Link> */}
                     </DropdownItem >
                     <DropdownItem className='p-0'>
-                        <Link to= "/pages-profile-settings" className="dropdown-item">
+                        {/* <Link to= "/pages-profile-settings" className="dropdown-item">
                             <span
                                 className="badge bg-success-subtle text-success mt-1 float-end">New</span><i
                                     className="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span
                                         className="align-middle">Settings</span>
-                        </Link>
+                        </Link> */}
                     </DropdownItem>
                     <DropdownItem className='p-0'>
-                        <Link to= "/auth-lockscreen-basic" className="dropdown-item">
+                        {/* <Link to= "/auth-lockscreen-basic" className="dropdown-item">
                             <i
                                 className="mdi mdi-lock text-muted fs-16 align-middle me-1"></i> <span className="align-middle">Lock screen</span>
-                        </Link>
+                        </Link> */}
                     </DropdownItem>
                     <DropdownItem className='p-0'>
                         <Link to= "/logout" className="dropdown-item">

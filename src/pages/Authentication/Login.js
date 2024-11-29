@@ -1,19 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardBody, Col, Container, Input, Label, Row, Button, Form, FormFeedback, Alert, Spinner } from 'reactstrap';
 import ParticlesAuth from "../AuthenticationInner/ParticlesAuth";
-
 //redux
 import { useSelector, useDispatch } from "react-redux";
-
 import { Link } from "react-router-dom";
 import withRouter from "../../Components/Common/withRouter";
 // Formik validation
 import * as Yup from "yup";
 import { useFormik } from "formik";
-
 // actions
 import { loginUser, socialLogin, resetLoginFlag } from "../../slices/thunks";
-
 import logoLight from "../../assets/images/logo-light.png";
 import { createSelector } from 'reselect';
 //import images
