@@ -50,21 +50,22 @@ const Navdata = () => {
             label: "Menu",
             isHeader: true,
         },
+
+        {
+            id: 4,
+            label: "Application",
+            icon: "ri-rocket-line",
+            link: "/apps-job-application",
+            parentId: "apps",
+        },
                 {
-                    id: "calendar",
-                    icon: "ri-apps-2-line",
-                    label: "Calendar",
-                    link: "/apps-calendar-month-grid",
-                    parentId: "apps",
-                    
+                    id: "appsprojects",
+                    icon: "ri-pages-line",
+                    label: "Correction rapport",
+                    link: "/apps-projects-create",
+                    parentId:"apps",
                 },
-                {
-                    id: "chat",
-                    icon: "ri-account-circle-line",
-                    label: "Chat",
-                    link: "/apps-chat",
-                    parentId: "apps",
-                },
+                
                 {
                     id: "mailbox",
                     icon: "ri-pencil-ruler-2-line",
@@ -72,55 +73,8 @@ const Navdata = () => {
                     link: "/apps-mailbox",
                     parentId: "apps",
                 },
-                {
-                    id: "appsecommerce",
-                    icon: "ri-dashboard-2-line",
-                    label: "CRUD",
-                    link: "/apps-ecommerce-customers",
-                    parentId: "apps",
-                },
-                {
-                    id: "appsprojects",
-                    icon: "ri-honour-line",
-                    label: "View Rapport",
-                    link: "/apps-projects-overview",
-                    parentId: "apps",
-                },
-            
-                // {
-                //     id: "tasks",
-                //     icon: "ri-pages-line",
-                //     label: "List View",
-                //     link: "/apps-tasks-list-view",
-                //     parentId: "apps",
-                // },
-                {
-                    id: "job",
-                    icon: "ri-layout-grid-line",
-                    label: "Candiate list",
-                    link: "/apps-job-candidate-lists",
-                    parentId: "apps",
-                },
-                {
-                id: "filemanager",
-                icon: "ri-pages-line",
-                label: "File Manager",
-                link: "/apps-file-manager",
-                parentId: "apps",
-            },
-            
-        {
-            label: "Pages",
-            isHeader: true,
-        },
-       
-        {
-            id: "tables",
-            label: "Tables",
-            icon: "ri-layout-grid-line",
-            link: "/tables-react",
-        },
-       
+                
+    
     ];
     return <React.Fragment>{menuItems}</React.Fragment>;
 };
